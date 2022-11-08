@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vakmensen",
+  "info": {
+    "singularName": "vakmens",
+    "pluralName": "vakmensen",
+    "displayName": "Vakmensen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Gemeente": {
+      "type": "enumeration",
+      "enum": [
+        "Aalter",
+        "Assenede",
+        "Eeklo",
+        "Evergem",
+        "Kaprijke",
+        "Lovendegem",
+        "Maldegem",
+        "Nevele",
+        "Sint-Laureins",
+        "Waarschoot",
+        "Zelzate",
+        "Zomergem"
+      ]
+    },
+    "Categorie": {
+      "type": "enumeration",
+      "enum": [
+        "Loodgieters",
+        "Electriciens",
+        "Dakwerkers",
+        "Algemene aannemers",
+        "Schilders",
+        "Schrijnwerkers",
+        "Stukadoors",
+        "Vloer- en tegelwerken",
+        "Isolatiewerken",
+        "Chapewerken",
+        "Tuinaanleg"
+      ],
+      "required": true
+    },
+    "CategorieEnkelvoud": {
+      "type": "string"
+    }
+  }
+}
